@@ -1,0 +1,429 @@
+.home-section .feature__item p {
+  color: #777;
+}
+.home-section .feature__title {
+  color: #df2020;
+}
+.home-section .feature__subtitle span {
+  color: #df2020;
+  padding-left: 12.4px;
+}
+.home-section .feature__text {
+  color: #777;
+}
+
+.food__category {
+  background: #df2020;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 0;
+  border-radius: 8px;
+}
+.food__category button {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  background: transparent;
+  color: #fff;
+}
+.food__category button img {
+  width: 15px;
+  height: 15px;
+}
+.food__category .foodBtnAactive {
+  background: #fff !important;
+  border-radius: 5px;
+  color: #df2020;
+}
+
+.why-us .tasty__treat-title span {
+  color: #df2020;
+}
+.why-us .why__tasty-treat .tasty__treat-desc {
+  color: #777;
+  line-height: 28px;
+}
+.why-us .why__tasty-treat .choose__us-title {
+  font-weight: 600;
+}
+.why-us .why__tasty-treat .choose__us-title i {
+  font-weight: 500;
+  color: #df2020;
+}
+.why-us .why__tasty-treat .choose__us-desc {
+  color: #777;
+}
+
+.testimonial_main .testimonial__title {
+  color: #df2020;
+}
+.testimonial_main .testimonial__subtitle span {
+  color: #df2020;
+}
+.testimonial_main .testimonial__desc {
+  color: #777;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 576px) {
+  .hero__content {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .hero__content h5 {
+    font-size: 1rem;
+  }
+  .hero__content h1 {
+    font-size: 1.5rem !important;
+  }
+  .hero__content p {
+    font-size: 14px;
+  }
+  .hero__content .hero__btns {
+    justify-content: center;
+  }
+  .hero__content .hero__btns button {
+    padding: 5px 12px;
+    font-size: 14px;
+  }
+  .hero__content .hero__service {
+    justify-content: center;
+  }
+  .hero__img img {
+    width: auto !important;
+    max-width: 80%;
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+  }
+  .category-main .category__item {
+    padding: 20px 15px;
+  }
+  .category-main .category__item h6 {
+    font-size: 12px;
+  }
+  .category-main img {
+    width: 40px;
+    height: 40px;
+  }
+  .home-section .feature__title {
+    font-size: 1rem;
+  }
+  .home-section .feature__subtitle span {
+    padding-left: 8.2px;
+  }
+  .home-section .feature__text {
+    font-size: 12.8px;
+  }
+  .home-section .feature__item h5 {
+    font-size: 1rem;
+  }
+  .home-section .feature__item p {
+    font-size: 12.8px;
+  }
+  .product-main #food__category {
+    padding: 15px;
+    gap: 2rem !important;
+  }
+  .product-main #food__category button {
+    padding: 5px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .product-main .product__content h5 a {
+    font-size: 12.8px !important;
+  }
+  .product-main .product__content .product__price {
+    font-size: 1rem !important;
+  }
+  .product-main .product__content button {
+    padding: 6.5px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .why-us p {
+    font-size: 12.5px;
+  }
+  .food-main-section .product__content h5 a {
+    font-size: 12.8px !important;
+  }
+  .food-main-section .product__content span {
+    font-size: 1rem !important;
+  }
+  .food-main-section button {
+    padding: 7px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .testimonial_main .testimonial__title {
+    font-size: 1rem !important;
+  }
+  .testimonial_main .testimonial__subtitle {
+    font-size: 1.4rem;
+  }
+  .testimonial_main p, .testimonial_main h6 {
+    font-size: 12.8px;
+  }
+  .testimonial_main .slick-slider {
+    overflow-x: hidden;
+    overflow-y: hd;
+    overflow-y: hidden;
+  }
+  .testimonial_main .testimonial__main-img {
+    width: auto;
+    max-width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero__content {
+    padding-top: 30px;
+  }
+  .hero__content h5 {
+    font-size: 1rem;
+  }
+  .hero__content h1 {
+    font-size: 1.5rem !important;
+  }
+  .hero__content p {
+    font-size: 14px;
+  }
+  .hero__content .hero__btns button {
+    padding: 5px 12px;
+    font-size: 14px;
+  }
+  .hero__img img {
+    width: auto !important;
+    max-width: 80%;
+  }
+  .category-main .category__item {
+    padding: 20px 15px;
+  }
+  .category-main .category__item h6 {
+    font-size: 12px;
+  }
+  .category-main img {
+    width: 40px;
+    height: 40px;
+  }
+  .home-section .feature__title {
+    font-size: 1rem;
+  }
+  .home-section .feature__subtitle span {
+    padding-left: 8.2px;
+  }
+  .home-section .feature__text {
+    font-size: 12.8px;
+  }
+  .home-section .feature__item h5 {
+    font-size: 1rem;
+  }
+  .home-section .feature__item p {
+    font-size: 12.8px;
+  }
+  .product-main #food__category {
+    padding: 15px;
+    gap: 2rem !important;
+  }
+  .product-main #food__category button {
+    padding: 5px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .product-main .product__content h5 a {
+    font-size: 12.8px !important;
+  }
+  .product-main .product__content .product__price {
+    font-size: 1rem !important;
+  }
+  .product-main .product__content button {
+    padding: 6.5px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .why-us p {
+    font-size: 12.5px;
+  }
+  .food-main-section .product__content h5 a {
+    font-size: 12.8px !important;
+  }
+  .food-main-section .product__content span {
+    font-size: 1rem !important;
+  }
+  .food-main-section button {
+    padding: 7px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .testimonial_main .testimonial__title {
+    font-size: 1rem !important;
+  }
+  .testimonial_main .testimonial__subtitle {
+    font-size: 1.4rem;
+  }
+  .testimonial_main p, .testimonial_main h6 {
+    font-size: 12.8px;
+  }
+  .testimonial_main .slick-slider {
+    overflow-x: hidden;
+    overflow-y: hd;
+    overflow-y: hidden;
+  }
+  .testimonial_main .testimonial__main-img {
+    width: auto;
+    max-width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .hero__content {
+    padding-top: 35px;
+  }
+  .hero__content .hero__service {
+    width: 114%;
+  }
+  .hero__img img {
+    width: auto !important;
+    max-width: 100%;
+  }
+  .product-main .product__content h5 a {
+    min-width: 176px;
+    display: block;
+  }
+  .category-main img {
+    width: 35px;
+    height: 35px;
+  }
+  .home-section .feature__title {
+    font-size: 1rem;
+  }
+  .home-section .feature__subtitle span {
+    padding-left: 8.2px;
+  }
+  .home-section .feature__text {
+    font-size: 12.8px;
+  }
+  .home-section .feature__item h5 {
+    font-size: 1rem;
+  }
+  .home-section .feature__item p {
+    font-size: 12.8px;
+  }
+  .product-main #food__category {
+    padding: 15px;
+    gap: 2rem !important;
+  }
+  .product-main #food__category button {
+    padding: 5px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .product-main .product__content h5 a {
+    font-size: 12.8px !important;
+  }
+  .product-main .product__content .product__price {
+    font-size: 1rem !important;
+  }
+  .product-main .product__content button {
+    padding: 6.5px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .food-main-section .product__item {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .food-main-section .product__content h5 a {
+    min-width: 176px;
+    display: block;
+    font-size: 12.8px !important;
+  }
+  .food-main-section .product__content span {
+    font-size: 1rem !important;
+  }
+  .food-main-section button {
+    padding: 7px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .footer .newsletter input {
+    font-size: 12px;
+  }
+  .footer .newsletter span {
+    padding: 2px 22px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .product-main #food__category button {
+    padding: 5px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .product-main .product__content h5 a {
+    display: block;
+    min-width: 176px;
+    font-size: 12.8px !important;
+  }
+  .product-main .product__content .product__price {
+    font-size: 1rem !important;
+  }
+  .product-main .product__content button {
+    padding: 7.7px 17.5px !important;
+    font-size: 0.7rem !important;
+  }
+  .food-main-section .product__item {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .food-main-section .product__content h5 a {
+    min-width: 176px;
+    display: block;
+    font-size: 12.8px !important;
+  }
+  .food-main-section .product__content span {
+    font-size: 1rem !important;
+  }
+  .food-main-section button {
+    padding: 7px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .footer .newsletter input {
+    font-size: 12px;
+  }
+  .footer .newsletter span {
+    padding: 2px 22px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .product-main #food__category button {
+    padding: 5px 15px !important;
+  }
+  .product-main .product__content h5 a {
+    display: block;
+    min-width: 176px;
+    font-size: 12.8px !important;
+  }
+  .product-main .product__content .product__price {
+    font-size: 1rem !important;
+  }
+  .product-main .product__content button {
+    padding: 8px 17.5px !important;
+    font-size: 0.7rem !important;
+  }
+  .food-main-section .product__item {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .food-main-section .product__content h5 a {
+    min-width: 176px;
+    display: block;
+    font-size: 12.8px !important;
+  }
+  .food-main-section .product__content span {
+    font-size: 1rem !important;
+  }
+  .food-main-section button {
+    padding: 8px 15px !important;
+    font-size: 0.7rem !important;
+  }
+  .footer .newsletter input {
+    font-size: 15px;
+  }
+  .footer .newsletter span {
+    padding: 2px 22px;
+  }
+}/*# sourceMappingURL=home.css.map */

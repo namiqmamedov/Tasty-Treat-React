@@ -1,0 +1,65 @@
+.food-section .search__widget,
+.food-section .sorting__widget select {
+  padding: 7px 15px;
+  border: 1px solid #fde4e4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.food-section .search__widget input,
+.food-section .sorting__widget select input {
+  border: none;
+  width: 100%;
+  background: transparent;
+}
+.food-section .search__widget input:focus,
+.food-section .sorting__widget select input:focus {
+  outline: none;
+  border: none;
+}
+
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search] ::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .food-section .search__widget {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .food-section .sorting__widget select {
+    width: 100% !important;
+  }
+  .food-section .product__content h5 a {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .food-section .search__widget {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .food-section .product__content h5 a {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .food-section .search__widget {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .food-section .product__content h5 a {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .food-section .search__widget {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .food-section .product__content h5 a {
+    font-size: 0.91rem;
+  }
+}/*# sourceMappingURL=all-foods.css.map */

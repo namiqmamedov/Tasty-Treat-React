@@ -1,0 +1,34 @@
+.cart-page th {
+  text-align: center;
+}
+
+.table__main-body {
+  width: 80px;
+}
+.table__main-body img {
+  width: 75%;
+}
+
+.cart__item-del i {
+  cursor: pointer;
+}
+
+.cart__price span {
+  color: #df2020;
+  font-size: 1.5rem;
+}
+.cart__price .addToCart {
+  border: none;
+  padding: 7px 25px;
+  background: #df2020;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .addToCart {
+    padding: 7px 7px !important;
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=cart-page.css.map */

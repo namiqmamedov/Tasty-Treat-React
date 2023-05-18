@@ -1,0 +1,7 @@
+.common__section {
+  background: linear-gradient(rgba(33, 34, 69, 0.6980392157), rgba(33, 34, 69, 0.6980392157)), url("../assets/images/banner-02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0px;
+}/*# sourceMappingURL=common-section.css.map */

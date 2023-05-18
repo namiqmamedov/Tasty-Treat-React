@@ -1,0 +1,125 @@
+footer {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: #fde4e4;
+}
+footer .social__links span i {
+  padding: 5px;
+  color: #fff;
+  background: #df2020;
+  border-radius: 50%;
+}
+footer .copyright__text {
+  font-size: 0.8rem;
+  color: #df2020;
+}
+footer .logo img {
+  width: 20%;
+  margin-bottom: 5px;
+}
+footer .logo h5 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+footer .logo p {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 28px;
+}
+footer .delivery__time-item {
+  background: transparent !important;
+}
+footer .delivery__time-item p {
+  color: #212245;
+}
+footer .delivery__time-item span {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #212245;
+  background: transparent;
+}
+footer .footer__title {
+  font-size: 1.1rem;
+  color: #212245;
+  font-weight: 600;
+}
+footer .newsletter {
+  padding: 5px;
+  border: 1px solid #212245;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+footer .newsletter span {
+  background: #df2020;
+  padding: 5px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer .newsletter span i {
+  color: #fff;
+}
+footer .newsletter input {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+footer .newsletter input:focus {
+  outline: none;
+}
+footer .newsletter input::-moz-placeholder {
+  color: #212245;
+}
+footer .newsletter input::placeholder {
+  color: #212245;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer .footer__logo img {
+    width: 15%;
+  }
+  .footer .footer__logo p {
+    font-size: 12.8px;
+  }
+  .footer .delivery__time-item span, .footer .delivery__time-item p {
+    font-size: 12.8px;
+  }
+  .footer .newsletter {
+    justify-content: space-between;
+  }
+  .footer .social__links {
+    justify-content: flex-start !important;
+  }
+  .footer .footer__title {
+    font-size: 12.8px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .footer .footer__logo img {
+    width: 19%;
+  }
+  .footer .footer__logo p {
+    font-size: 12.8px;
+  }
+  .footer .delivery__time-item span, .footer .delivery__time-item p {
+    font-size: 12.8px;
+  }
+  .footer .newsletter {
+    justify-content: space-between;
+  }
+  .footer .newsletter input {
+    font-size: 12.8px;
+  }
+  .footer .newsletter span {
+    padding: 1px 17px;
+  }
+  .footer .social__links {
+    justify-content: flex-start !important;
+  }
+  .footer .footer__title {
+    font-size: 12.8px;
+  }
+}/*# sourceMappingURL=footer.css.map */

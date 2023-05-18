@@ -1,0 +1,53 @@
+.checkout__bill {
+  background: #fde4e4;
+  padding: 30px;
+}
+
+.checkout__total {
+  border-top: 1px solid #ddd;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .checkout__bill h6 {
+    font-size: 0.9rem;
+  }
+  .checkout__bill {
+    margin-top: 40px;
+  }
+}
+.form {
+  background: #fde4e4;
+  width: 60%;
+  margin: auto;
+  background: #fde4e4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form__group {
+  margin-bottom: 30px;
+}
+
+.form__group input,
+.form__group textarea {
+  width: 100%;
+  background: transparent;
+  padding: 7px 20px;
+  border: none;
+  border-bottom: 1px solid rgba(33, 34, 69, 0.2980392157);
+}
+
+.form__group input:focus,
+.form__group textarea:focus {
+  outline: none;
+}
+
+.addToCart {
+  border: none;
+  padding: 7px 25px;
+  background: #df2020;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=checkout.css.map */
