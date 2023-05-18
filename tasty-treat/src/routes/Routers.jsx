@@ -11,6 +11,7 @@ import Checkout from '../pages/Checkout'
 import Login from '../pages/Login'
 import Register from '../pages/Register'
 import Contact from '../pages/Contact'
+import Error from '../pages/Error'
 
 
 const Routers = () => {
@@ -25,6 +26,7 @@ const Routers = () => {
          <Route path='/login' element={<Login />} />
          <Route path='/register' element={<Register />} />
          <Route path='/contact' element={<Contact />} />
+         <Route path='*' element={<Error />} />
     </Routes>
   )
 }
